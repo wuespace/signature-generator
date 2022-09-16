@@ -11,6 +11,7 @@
     "@types/react-dom": "^18.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-intl": "^6.1.1",
     "react-scripts": "^5.0.1",
     "typescript": "^4.8.3",
     "web-vitals": "^3.0.2",
@@ -18,10 +19,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run i18n:compile && react-scripts build",
     "prettier": "prettier --write .",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "i18n:extract": "formatjs extract \"src/**/*.{ts,tsx}\" --ignore \"src/**/*.d.ts\" --out-file lang/en.json",
+    "i18n:compile": "formatjs compile-folder --ast lang src/locales"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "@formatjs/cli": "^5.1.0",
     "@types/react": "^18.0.20",
     "prettier": "^2.7.1"
   }

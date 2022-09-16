@@ -1,14 +1,21 @@
 import { useAppState } from '../hooks/useAppState';
 import { LinkEditor } from './LinkEditor';
 import { generateSignature } from '../lib/generate-signature';
+import { FormattedMessage, useIntl } from 'react-intl';
+import { LanguageSelector } from './LanguageSelector';
 
 export function Editor() {
 	const state = useAppState();
+	const intl = useIntl();
 
 	const copyHTML = async () => {
 		await navigator.clipboard.writeText(generateSignature(state));
 		alert(
-			'Signature copied to clipboard. You can now paste it into your email client.'
+			intl.formatMessage({
+				id: 'components.editor.copied-alert.message',
+				defaultMessage:
+					'Signature copied to clipboard. You can now paste it into your email client.'
+			})
 		);
 	};
 
@@ -21,24 +28,50 @@ export function Editor() {
 				}}
 			>
 				<fieldset>
-					<legend>Persönliche Daten</legend>
+					<legend>
+						<FormattedMessage
+							id="components.editor.preferences.legend"
+							defaultMessage="Preferences"
+						/>
+					</legend>
+					<LanguageSelector />
+				</fieldset>
+				<fieldset>
+					<legend>
+						<FormattedMessage
+							id="components.editor.personal-data"
+							defaultMessage="Personal Data"
+						/>
+					</legend>
 					<label>
-						Name &amp; Pronomen
+						<FormattedMessage
+							id="components.editor.name.label"
+							defaultMessage="Name & Pronouns"
+						/>
 						<br />
 						<input
 							type="text"
-							placeholder={'Fridolin Freilich (he/him)'}
+							placeholder={intl.formatMessage({
+								id: 'components.editor.name.placeholder',
+								defaultMessage: 'Peter Parker (he/him)'
+							})}
 							onChange={e => state.setName(e.target.value)}
 							value={state.name}
 						/>
 					</label>
 					<br />
 					<label>
-						Rolle bei WüSpace
+						<FormattedMessage
+							id="components.editor.role.label"
+							defaultMessage="Role at WüSpace"
+						/>
 						<br />
 						<input
 							type="text"
-							placeholder={'Fridolin Freilich'}
+							placeholder={intl.formatMessage({
+								id: 'components.editor.role.placeholder',
+								defaultMessage: 'Developer'
+							})}
 							onChange={e => state.setRole(e.target.value)}
 							value={state.role}
 						/>
@@ -50,10 +83,18 @@ export function Editor() {
 						<LinkEditor link={link} index={index} key={index} />
 					))}
 					<button type="button" onClick={state.addPersonalLink}>
-						Link hinzufügen
+						<FormattedMessage
+							id="components.editor.add-link"
+							defaultMessage="Add Link"
+						/>
 					</button>
 				</fieldset>
-				<button type="submit">Signatur-HTML kopieren</button>
+				<button type="submit">
+					<FormattedMessage
+						id="components.editor.copy-html"
+						defaultMessage="Copy HTML"
+					/>
+				</button>
 			</form>
 		</aside>
 	);

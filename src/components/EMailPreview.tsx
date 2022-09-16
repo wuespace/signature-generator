@@ -1,12 +1,16 @@
 import { useAppState } from '../hooks/useAppState';
 import { SignatureRenderer } from './SignatureRenderer';
+import { FormattedMessage } from 'react-intl';
 
 export function EMailPreview() {
 	const userDetails = useAppState();
 
 	return (
 		<main>
-			Sehr geehrte Damen und Herren,
+			<FormattedMessage
+				id="components.EMailPreview.salutation"
+				defaultMessage="Dear ladies and gentlemen,"
+			/>
 			<br />
 			<br />
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
@@ -15,7 +19,10 @@ export function EMailPreview() {
 			quod ratione?
 			<br />
 			<br />
-			Mit freundlichen Grüßen,
+			<FormattedMessage
+				id="components.EMailPreview.signature"
+				defaultMessage="Kind regards,"
+			/>
 			<br />
 			{userDetails.name}
 			<br />

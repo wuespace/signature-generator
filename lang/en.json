@@ -1,0 +1,74 @@
+{
+  "components.EMailPreview.salutation": {
+    "defaultMessage": "Dear ladies and gentlemen,"
+  },
+  "components.EMailPreview.signature": {
+    "defaultMessage": "Kind regards,"
+  },
+  "components.LinkEditor.link-type.label": {
+    "defaultMessage": "Link Type:"
+  },
+  "components.LinkEditor.link.label": {
+    "defaultMessage": "Link:"
+  },
+  "components.LinkEditor.link.placeholder": {
+    "defaultMessage": "e.g. https://twitter.com/username"
+  },
+  "components.LinkEditor.platform.label": {
+    "defaultMessage": "Title:"
+  },
+  "components.LinkEditor.platform.placeholder": {
+    "defaultMessage": "e.g. Twitter"
+  },
+  "components.editor.add-link": {
+    "defaultMessage": "Add Link"
+  },
+  "components.editor.copied-alert.message": {
+    "defaultMessage": "Signature copied to clipboard. You can now paste it into your email client."
+  },
+  "components.editor.copy-html": {
+    "defaultMessage": "Copy HTML"
+  },
+  "components.editor.name.label": {
+    "defaultMessage": "Name & Pronouns"
+  },
+  "components.editor.name.placeholder": {
+    "defaultMessage": "Peter Parker (he/him)"
+  },
+  "components.editor.personal-data": {
+    "defaultMessage": "Personal Data"
+  },
+  "components.editor.preferences.legend": {
+    "defaultMessage": "Preferences"
+  },
+  "components.editor.role.label": {
+    "defaultMessage": "Role at WüSpace"
+  },
+  "components.editor.role.placeholder": {
+    "defaultMessage": "Developer"
+  },
+  "components.language-selector.options.english": {
+    "defaultMessage": "English"
+  },
+  "components.language-selector.options.german": {
+    "defaultMessage": "German"
+  },
+  "components.link-editor.link-types.email": {
+    "defaultMessage": "Email",
+    "description": "Select field value for email links"
+  },
+  "components.link-editor.link-types.normal": {
+    "defaultMessage": "Normal",
+    "description": "Select field value for normal links"
+  },
+  "components.link-editor.link-types.phone": {
+    "defaultMessage": "Phone",
+    "description": "Select field value for phone links"
+  },
+  "languageSelector.label": {
+    "defaultMessage": "UI Language:"
+  },
+  "linkEditor.removeLink": {
+    "defaultMessage": "Remove link"
+  }
+}
