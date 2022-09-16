@@ -1,7 +1,7 @@
 # WüSpace Email Signature Generator
 
-This is a simple tool to generate a WüSpace email signature. It is accessible at https://signature-generator.wuespace.de
-.
+This is a simple tool to generate a WüSpace email signature. It is accessible at
+https://signature-generator.wuespace.de .
 
 ## Development
 
@@ -25,28 +25,34 @@ This project uses `react-intl` for localization.
 
 #### Adding strings
 
-1. Use the string in your source code (e.g., using `<FormattedMessage id="myString" defaultMessage="Hello World" />`)
-2. Run `npm run i18n:extract`. This will extract all strings from the source code and add them to the `lang/en.json`
-   file.
+1. Use the string in your source code (e.g., using
+   `<FormattedMessage id="myString" defaultMessage="Hello World" />`)
+2. Run `npm run i18n:extract`. This will extract all strings from the source
+   code and add them to the `lang/en.json` file.
 
 #### Translating strings
 
-Translate the strings in the `lang` folder. You can use the `en.json` file as a template. The project also includes a
-   project file for BabelEdit, which you can use to translate the strings.
+Translate the strings in the `lang` folder. You can use the `en.json` file as a
+template. The project also includes a project file for BabelEdit, which you can
+use to translate the strings.
 
 #### Compiling translations
 
-Run `npm run i18n:compile`. This will compile the translations into the `src/locales` folder (which doesn't get
-   committed to the repository).
+Run `npm run i18n:compile`. This will compile the translations into the
+`src/locales` folder (which doesn't get committed to the repository).
 
 #### Adding a new language
 
 1. Add the language to the `Locale` type in `src/contexts/language-context.tsx`
-2. Copy the `en.json` file in `lang` to your corresponding language code (e.g., `de.json` for German)
+2. Copy the `en.json` file in `lang` to your corresponding language code (e.g.,
+   `de.json` for German)
 3. Run `npm run i18n:compile` to compile the translations
-4. Add the language to the `MESSAGES: Record<Locale, any>` object in `src/App.tsx`
-5. Add corresponding language options to the `LanguageSelector` component in `src/components/LanguageSelector.tsx`
+4. Add the language to the `MESSAGES: Record<Locale, any>` object in
+   `src/App.tsx`
+5. Add corresponding language options to the `LanguageSelector` component in
+   `src/components/LanguageSelector.tsx`
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
+for details.

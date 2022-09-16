@@ -1,71 +1,71 @@
 {
-  "components.EMailPreview.salutation": {
-    "defaultMessage": "Sehr geehrte Damen und Herren,"
-  },
-  "components.EMailPreview.signature": {
-    "defaultMessage": "Mit freundlichen Grüßen,"
-  },
-  "components.LinkEditor.link.label": {
-    "defaultMessage": "Link:"
-  },
-  "components.LinkEditor.link.placeholder": {
-    "defaultMessage": "z.B. https://twitter.com/username"
-  },
-  "components.LinkEditor.link-type.label": {
-    "defaultMessage": "Link-Typ:"
-  },
-  "components.LinkEditor.platform.label": {
-    "defaultMessage": "Titel:"
-  },
-  "components.LinkEditor.platform.placeholder": {
-    "defaultMessage": "z.B. Twitter"
-  },
-  "components.editor.add-link": {
-    "defaultMessage": "Link hinzufügen"
-  },
-  "components.editor.copied-alert.message": {
-    "defaultMessage": "Die Signatur wurde in die Zwischenablage kopiert und kann jetzt in einem E-Mail-Client eingefügt werden."
-  },
-  "components.editor.copy-html": {
-    "defaultMessage": "HTML kopieren"
-  },
-  "components.editor.name.label": {
-    "defaultMessage": "Name & Pronomen"
-  },
-  "components.editor.name.placeholder": {
-    "defaultMessage": "Max Mustermann (er/ihn)"
-  },
-  "components.editor.personal-data": {
-    "defaultMessage": "Persönliche Daten"
-  },
-  "components.editor.preferences.legend": {
-    "defaultMessage": "Voreinstellungen"
-  },
-  "components.editor.role.label": {
-    "defaultMessage": "Rolle bei WüSpace"
-  },
-  "components.editor.role.placeholder": {
-    "defaultMessage": "Entwickler"
-  },
-  "components.language-selector.options.english": {
-    "defaultMessage": "Englisch"
-  },
-  "components.language-selector.options.german": {
-    "defaultMessage": "Deutsch"
-  },
-  "components.link-editor.link-types.email": {
-    "defaultMessage": "E-Mail"
-  },
-  "components.link-editor.link-types.normal": {
-    "defaultMessage": "Normal"
-  },
-  "components.link-editor.link-types.phone": {
-    "defaultMessage": "Telefon"
-  },
-  "languageSelector.label": {
-    "defaultMessage": "UI Sprache:"
-  },
-  "linkEditor.removeLink": {
-    "defaultMessage": "Link entfernen"
-  }
+	"components.EMailPreview.salutation": {
+		"defaultMessage": "Sehr geehrte Damen und Herren,"
+	},
+	"components.EMailPreview.signature": {
+		"defaultMessage": "Mit freundlichen Grüßen,"
+	},
+	"components.LinkEditor.link.label": {
+		"defaultMessage": "Link:"
+	},
+	"components.LinkEditor.link.placeholder": {
+		"defaultMessage": "z.B. https://twitter.com/username"
+	},
+	"components.LinkEditor.link-type.label": {
+		"defaultMessage": "Link-Typ:"
+	},
+	"components.LinkEditor.platform.label": {
+		"defaultMessage": "Titel:"
+	},
+	"components.LinkEditor.platform.placeholder": {
+		"defaultMessage": "z.B. Twitter"
+	},
+	"components.editor.add-link": {
+		"defaultMessage": "Link hinzufügen"
+	},
+	"components.editor.copied-alert.message": {
+		"defaultMessage": "Die Signatur wurde in die Zwischenablage kopiert und kann jetzt in einem E-Mail-Client eingefügt werden."
+	},
+	"components.editor.copy-html": {
+		"defaultMessage": "HTML kopieren"
+	},
+	"components.editor.name.label": {
+		"defaultMessage": "Name & Pronomen"
+	},
+	"components.editor.name.placeholder": {
+		"defaultMessage": "Max Mustermann (er/ihn)"
+	},
+	"components.editor.personal-data": {
+		"defaultMessage": "Persönliche Daten"
+	},
+	"components.editor.preferences.legend": {
+		"defaultMessage": "Voreinstellungen"
+	},
+	"components.editor.role.label": {
+		"defaultMessage": "Rolle bei WüSpace"
+	},
+	"components.editor.role.placeholder": {
+		"defaultMessage": "Entwickler"
+	},
+	"components.language-selector.options.english": {
+		"defaultMessage": "Englisch"
+	},
+	"components.language-selector.options.german": {
+		"defaultMessage": "Deutsch"
+	},
+	"components.link-editor.link-types.email": {
+		"defaultMessage": "E-Mail"
+	},
+	"components.link-editor.link-types.normal": {
+		"defaultMessage": "Normal"
+	},
+	"components.link-editor.link-types.phone": {
+		"defaultMessage": "Telefon"
+	},
+	"languageSelector.label": {
+		"defaultMessage": "UI Sprache:"
+	},
+	"linkEditor.removeLink": {
+		"defaultMessage": "Link entfernen"
+	}
 }

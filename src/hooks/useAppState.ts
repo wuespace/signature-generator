@@ -1,4 +1,4 @@
-import create  from 'zustand';
+import create from 'zustand';
 import { UserDetails } from '../lib/user-details';
 import { Link } from '../lib/link';
 
