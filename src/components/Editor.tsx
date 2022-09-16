@@ -17,7 +17,7 @@ export function Editor() {
 			<form
 				onSubmit={e => {
 					e.preventDefault();
-					copyHTML();
+					copyHTML().finally();
 				}}
 			>
 				<fieldset>
