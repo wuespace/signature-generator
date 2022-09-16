@@ -1,61 +1,52 @@
-# Getting Started with Create React App
+# WüSpace Email Signature Generator
 
-This project was bootstrapped with
-[Create React App](https://github.com/facebook/create-react-app).
+This is a simple tool to generate a WüSpace email signature. It is accessible at https://signature-generator.wuespace.de
+.
 
-## Available Scripts
+## Development
 
-In the project directory, you can run:
+### Prerequisites
 
-### `yarn start`
+- [Node.js](https://nodejs.org/en/) (>= 16.0.0)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Setup
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone the repository
+2. Install dependencies: `npm ci`
+3. Start the development server: `npm start`
+4. Open the app in your browser: http://localhost:3000
+5. Make changes to the code and see the changes in the browser
+6. When you are done, build the app: `npm run build`
+7. The built app is now in the `build` folder
 
-### `yarn test`
+### Localization
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests)
-for more information.
+This project uses `react-intl` for localization.
 
-### `yarn build`
+#### Adding strings
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best
-performance.
+1. Use the string in your source code (e.g., using `<FormattedMessage id="myString" defaultMessage="Hello World" />`)
+2. Run `npm run i18n:extract`. This will extract all strings from the source code and add them to the `lang/en.json`
+   file.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Translating strings
 
-See the section about
-[deployment](https://facebook.github.io/create-react-app/docs/deployment) for
-more information.
+Translate the strings in the `lang` folder. You can use the `en.json` file as a template. The project also includes a
+   project file for BabelEdit, which you can use to translate the strings.
 
-### `yarn eject`
+#### Compiling translations
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Run `npm run i18n:compile`. This will compile the translations into the `src/locales` folder (which doesn't get
+   committed to the repository).
 
-If you aren’t satisfied with the build tool and configuration choices, you can
-`eject` at any time. This command will remove the single build dependency from
-your project.
+#### Adding a new language
 
-Instead, it will copy all the configuration files and the transitive
-dependencies (webpack, Babel, ESLint, etc) right into your project so you have
-full control over them. All of the commands except `eject` will still work, but
-they will point to the copied scripts so you can tweak them. At this point
-you’re on your own.
+1. Add the language to the `Locale` type in `src/contexts/language-context.tsx`
+2. Copy the `en.json` file in `lang` to your corresponding language code (e.g., `de.json` for German)
+3. Run `npm run i18n:compile` to compile the translations
+4. Add the language to the `MESSAGES: Record<Locale, any>` object in `src/App.tsx`
+5. Add corresponding language options to the `LanguageSelector` component in `src/components/LanguageSelector.tsx`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for
-small and middle deployments, and you shouldn’t feel obligated to use this
-feature. However we understand that this tool wouldn’t be useful if you couldn’t
-customize it when you are ready for it.
+## License
 
-## Learn More
-
-You can learn more in the
-[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
