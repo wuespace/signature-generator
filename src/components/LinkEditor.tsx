@@ -13,11 +13,16 @@ export function LinkEditor({ link, index }: { link: Link; index: number }) {
 
 	return (
 		<fieldset>
-			<legend>{link.platform}</legend>
-			<button type="button" onClick={() => deletePersonalLink(index)}>
-				Delete
-			</button>
-			<br />
+			<legend>
+				{link.platform} (
+				<a
+					href="js:void"
+					onClick={() => deletePersonalLink(index)}
+				>
+					Link entfernen
+				</a>
+				)
+			</legend>
 			<label>
 				Typ:
 				<br />

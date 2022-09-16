@@ -23,18 +23,18 @@ export function Editor() {
 				<fieldset>
 					<legend>Persönliche Daten</legend>
 					<label>
-						Name
+						Name &amp; Pronomen
 						<br />
 						<input
 							type="text"
-							placeholder={'Fridolin Freilich'}
+							placeholder={'Fridolin Freilich (he/him)'}
 							onChange={e => state.setName(e.target.value)}
 							value={state.name}
 						/>
 					</label>
 					<br />
 					<label>
-						Rolle
+						Rolle bei WüSpace
 						<br />
 						<input
 							type="text"
@@ -50,10 +50,10 @@ export function Editor() {
 						<LinkEditor link={link} index={index} key={index} />
 					))}
 					<button type="button" onClick={state.addPersonalLink}>
-						Add a link
+						Link hinzufügen
 					</button>
 				</fieldset>
-				<button type="submit">Copy Signature HTML code</button>
+				<button type="submit">Signatur-HTML kopieren</button>
 			</form>
 		</aside>
 	);
