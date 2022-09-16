@@ -1,8 +1,8 @@
-import create, { State } from 'zustand';
+import create  from 'zustand';
 import { UserDetails } from '../lib/user-details';
 import { Link } from '../lib/link';
 
-interface AppState extends State, UserDetails {
+interface AppState extends UserDetails {
 	setName(name: string): void;
 
 	setRole(name: string): void;
@@ -15,7 +15,7 @@ interface AppState extends State, UserDetails {
 }
 
 export const useAppState = create<AppState>((set, get) => ({
-	name: 'Max Mustermann',
+	name: 'Max Mustermann (she/her)',
 	role: 'Tester',
 	personalLinks: [
 		{
