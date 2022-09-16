@@ -1,77 +1,77 @@
 {
   "components.EMailPreview.salutation": {
-    "defaultMessage": "Sehr geehrte Damen und Herren,"
+    "defaultMessage": "Chers mesdames et messieurs,"
   },
   "components.EMailPreview.signature": {
-    "defaultMessage": "Mit freundlichen Grüßen,"
+    "defaultMessage": "Sincères amitiés,"
   },
   "components.LinkEditor.link.label": {
-    "defaultMessage": "Link:"
+    "defaultMessage": "Lien:"
   },
   "components.LinkEditor.link.placeholder": {
-    "defaultMessage": "z.B. https://twitter.com/username"
+    "defaultMessage": "par exemple. https://twitter.com/username"
   },
   "components.LinkEditor.link-type.label": {
-    "defaultMessage": "Link-Typ:"
+    "defaultMessage": "Type de lien:"
   },
   "components.LinkEditor.platform.label": {
-    "defaultMessage": "Titel:"
+    "defaultMessage": "Titre:"
   },
   "components.LinkEditor.platform.placeholder": {
-    "defaultMessage": "z.B. Twitter"
+    "defaultMessage": "par exemple, Twitter"
   },
   "components.editor.add-link": {
-    "defaultMessage": "Link hinzufügen"
+    "defaultMessage": "Ajouter un lien"
   },
   "components.editor.copied-alert.message": {
-    "defaultMessage": "Die Signatur wurde in die Zwischenablage kopiert und kann jetzt in einem E-Mail-Client eingefügt werden."
+    "defaultMessage": "Signature copiée dans le presse-papiers. Vous pouvez maintenant le coller dans votre client de messagerie."
   },
   "components.editor.copy-html": {
-    "defaultMessage": "HTML kopieren"
+    "defaultMessage": "Copier HTML"
   },
   "components.editor.name.label": {
-    "defaultMessage": "Name & Pronomen"
+    "defaultMessage": "Nom & Pronoms"
   },
   "components.editor.name.placeholder": {
-    "defaultMessage": "Max Mustermann (er/ihn)"
+    "defaultMessage": "Peter Parker (il)"
   },
   "components.editor.personal-data": {
-    "defaultMessage": "Persönliche Daten"
+    "defaultMessage": "Données personnelles"
   },
   "components.editor.preferences.legend": {
-    "defaultMessage": "Voreinstellungen"
+    "defaultMessage": "Préférences"
   },
   "components.editor.role.label": {
-    "defaultMessage": "Rolle bei WüSpace"
+    "defaultMessage": "Rôle chez WüSpace"
   },
   "components.editor.role.placeholder": {
-    "defaultMessage": "Entwickler"
+    "defaultMessage": "Développeur"
   },
   "components.language-selector.options.english": {
-    "defaultMessage": "Englisch"
+    "defaultMessage": "Anglais"
   },
   "components.language-selector.options.french": {
-    "defaultMessage": "Französisch"
+    "defaultMessage": "Français"
   },
   "components.language-selector.options.german": {
-    "defaultMessage": "Deutsch"
+    "defaultMessage": "Allemand"
   },
   "components.language-selector.options.swahili": {
-    "defaultMessage": "Suaheli"
+    "defaultMessage": "Swahili"
   },
   "components.link-editor.link-types.email": {
-    "defaultMessage": "E-Mail"
+    "defaultMessage": "Email"
   },
   "components.link-editor.link-types.normal": {
-    "defaultMessage": "Normal"
+    "defaultMessage": "Ordinaire"
   },
   "components.link-editor.link-types.phone": {
-    "defaultMessage": "Telefon"
+    "defaultMessage": "Téléphone"
   },
   "languageSelector.label": {
-    "defaultMessage": "UI Sprache:"
+    "defaultMessage": "Langue de l'interface utilisateur:"
   },
   "linkEditor.removeLink": {
-    "defaultMessage": "Link entfernen"
+    "defaultMessage": "Supprimer le lien"
   }
 }

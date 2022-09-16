@@ -5,13 +5,17 @@ import { Editor } from './components/Editor';
 import { IntlProvider } from 'react-intl';
 import deMessages from './locales/de.json';
 import enMessages from './locales/en.json';
+import frMessages from './locales/fr.json';
+import swMessages from './locales/sw.json';
 
 const DEFAULT_LOCALE: Locale = window.navigator.language.split(
 	'-'
 )[0] as Locale;
 const MESSAGES: Record<Locale, any> = {
 	en: enMessages,
-	de: deMessages
+	de: deMessages,
+	fr: frMessages,
+	sw: swMessages
 };
 
 function App() {

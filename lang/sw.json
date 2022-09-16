@@ -1,77 +1,77 @@
 {
   "components.EMailPreview.salutation": {
-    "defaultMessage": "Sehr geehrte Damen und Herren,"
+    "defaultMessage": "Wapendwa mabibi na mabwana,"
   },
   "components.EMailPreview.signature": {
-    "defaultMessage": "Mit freundlichen Grüßen,"
+    "defaultMessage": "Salamu za dhati,"
   },
   "components.LinkEditor.link.label": {
-    "defaultMessage": "Link:"
+    "defaultMessage": "Kiungo:"
   },
   "components.LinkEditor.link.placeholder": {
-    "defaultMessage": "z.B. https://twitter.com/username"
+    "defaultMessage": "k.m. https://twitter.com/jinalamtumiaji"
   },
   "components.LinkEditor.link-type.label": {
-    "defaultMessage": "Link-Typ:"
+    "defaultMessage": "Aina ya Kiungo:"
   },
   "components.LinkEditor.platform.label": {
-    "defaultMessage": "Titel:"
+    "defaultMessage": "Kichwa:"
   },
   "components.LinkEditor.platform.placeholder": {
-    "defaultMessage": "z.B. Twitter"
+    "defaultMessage": "k.m. Twitter"
   },
   "components.editor.add-link": {
-    "defaultMessage": "Link hinzufügen"
+    "defaultMessage": "Ongeza Kiungo"
   },
   "components.editor.copied-alert.message": {
-    "defaultMessage": "Die Signatur wurde in die Zwischenablage kopiert und kann jetzt in einem E-Mail-Client eingefügt werden."
+    "defaultMessage": "Sahihi imenakiliwa kwenye ubao wa kunakili. Sasa unaweza kuibandika kwenye kiteja chako cha barua pepe."
   },
   "components.editor.copy-html": {
-    "defaultMessage": "HTML kopieren"
+    "defaultMessage": "Nakili HTML"
   },
   "components.editor.name.label": {
-    "defaultMessage": "Name & Pronomen"
+    "defaultMessage": "Jina na Viwakilishi"
   },
   "components.editor.name.placeholder": {
-    "defaultMessage": "Max Mustermann (er/ihn)"
+    "defaultMessage": "Peter Parker (he/him)"
   },
   "components.editor.personal-data": {
-    "defaultMessage": "Persönliche Daten"
+    "defaultMessage": "Taarifa binafsi"
   },
   "components.editor.preferences.legend": {
-    "defaultMessage": "Voreinstellungen"
+    "defaultMessage": "Mapendeleo"
   },
   "components.editor.role.label": {
-    "defaultMessage": "Rolle bei WüSpace"
+    "defaultMessage": "Jukumu katika WüSpace"
   },
   "components.editor.role.placeholder": {
-    "defaultMessage": "Entwickler"
+    "defaultMessage": "Msanidi"
   },
   "components.language-selector.options.english": {
-    "defaultMessage": "Englisch"
+    "defaultMessage": "Kiingereza"
   },
   "components.language-selector.options.french": {
-    "defaultMessage": "Französisch"
+    "defaultMessage": "Kifaransa"
   },
   "components.language-selector.options.german": {
-    "defaultMessage": "Deutsch"
+    "defaultMessage": "Jamani"
   },
   "components.language-selector.options.swahili": {
-    "defaultMessage": "Suaheli"
+    "defaultMessage": "Kiswahili"
   },
   "components.link-editor.link-types.email": {
-    "defaultMessage": "E-Mail"
+    "defaultMessage": "Barua pepe"
   },
   "components.link-editor.link-types.normal": {
-    "defaultMessage": "Normal"
+    "defaultMessage": "Kawaida"
   },
   "components.link-editor.link-types.phone": {
-    "defaultMessage": "Telefon"
+    "defaultMessage": "Simu"
   },
   "languageSelector.label": {
-    "defaultMessage": "UI Sprache:"
+    "defaultMessage": "Lugha ya UI:"
   },
   "linkEditor.removeLink": {
-    "defaultMessage": "Link entfernen"
+    "defaultMessage": "Ondoa kiungo"
   }
 }

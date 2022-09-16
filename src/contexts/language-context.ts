@@ -7,7 +7,7 @@ export const LanguageContext = createContext<LanguageContextType>({
 	}
 });
 
-export type Locale = 'en' | 'de';
+export type Locale = 'en' | 'de' | 'fr' | 'sw';
 
 export interface LanguageContextType {
 	locale: Locale;

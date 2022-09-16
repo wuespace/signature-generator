@@ -28,6 +28,18 @@ export function LanguageSelector() {
 						defaultMessage="German"
 					/>
 				</option>
+				<option value="fr">
+					<FormattedMessage
+						id="components.language-selector.options.french"
+						defaultMessage="French"
+					/>
+				</option>
+				<option value="sw">
+					<FormattedMessage
+						id="components.language-selector.options.swahili"
+						defaultMessage="Swahili"
+					/>
+				</option>
 			</select>
 		</label>
 	);
