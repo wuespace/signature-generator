@@ -33,8 +33,11 @@ This project uses `react-intl` for localization.
 #### Translating strings
 
 Translate the strings in the `lang` folder. You can use the `en.json` file as a
-template. The project also includes a project file for BabelEdit, which you can
-use to translate the strings.
+template.
+
+The project also includes a project file for
+[BabelEdit](https://www.codeandweb.com/babeledit), which you can use to
+translate the strings.
 
 #### Compiling translations
 
