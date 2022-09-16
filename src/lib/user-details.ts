@@ -1,7 +1,7 @@
-import {Link} from "./link";
+import { Link } from './link';
 
 export interface UserDetails {
-    name: string;
-    role: string;
-    personalLinks: Link[];
+	name: string;
+	role: string;
+	personalLinks: Link[];
 }

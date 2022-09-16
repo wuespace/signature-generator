@@ -1,7 +1,11 @@
-import {UserDetails} from "./user-details";
+import { UserDetails } from './user-details';
 
-export function generateSignature({name, role, personalLinks}: UserDetails): string {
-    return `
+export function generateSignature({
+	name,
+	role,
+	personalLinks
+}: UserDetails): string {
+	return `
         <style>
             a {
                 color: rgb(69, 40, 151);
@@ -21,21 +25,33 @@ export function generateSignature({name, role, personalLinks}: UserDetails): str
                     ${name}<br>
                     <i>${role}, WüSpace e. V.</i>
                     <br>
-                    ${personalLinks.length ? `
+                    ${
+											personalLinks.length
+												? `
                         <br>
                         <table>
                             <tbody>
-                            ${(personalLinks).map<string>(link => `
+                            ${personalLinks
+															.map<string>(
+																link => `
                                 <tr>
                                     <th align="left">${link.platform}</th>
-                                    <td align="left"><a href="${link.prefix + link.link}"
-                                                        style="color: rgb(69, 40, 151)">${link.link}</a>
+                                    <td align="left"><a href="${
+																			link.prefix + link.link
+																		}"
+                                                        style="color: rgb(69, 40, 151)">${
+																													link.link
+																												}</a>
                                     </td>
                                 </tr>
-                            `).join("\n")}
+                            `
+															)
+															.join('\n')}
                             </tbody>
                         </table>
-                    ` : ''}
+                    `
+												: ''
+										}
                     <p style="font-size: 0.75em">WüSpace e.V. •
                         Emil-Fischer-Straße 32 •
                         Informatik 8 •
@@ -100,6 +116,5 @@ export function generateSignature({name, role, personalLinks}: UserDetails): str
                 </td>
             </tr>
             </tbody>
-        </table>`
+        </table>`;
 }
-

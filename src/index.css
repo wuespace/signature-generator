@@ -1,38 +1,43 @@
-html, body, :root {
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
+html,
+body,
+:root {
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
 }
 
 #wrapper {
-    display: flex;
+	display: flex;
 }
 
 #wrapper aside * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 main {
-    padding: 0 2rem;
-    max-width: 540px;
+	padding: 0 2rem;
+	max-width: 540px;
 }
 
-fieldset, button {
-    margin: 0;
+fieldset,
+button {
+	margin: 0;
 }
 
-input, button, select {
-    width: 100%;
-    padding: .2rem;
+input,
+button,
+select {
+	width: 100%;
+	padding: 0.2rem;
 }
 
 button {
-    border: none;
-    background: rgb(69, 40, 151);
-    color: white;
-    padding: .25rem;
-    cursor: pointer;
+	border: none;
+	background: rgb(69, 40, 151);
+	color: white;
+	padding: 0.25rem;
+	cursor: pointer;
 }
 
 button:hover {
-    background: rgb(55, 37, 105);
+	background: rgb(55, 37, 105);
 }
