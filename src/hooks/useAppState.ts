@@ -19,12 +19,12 @@ export const useAppState = create<AppState>((set, get) => ({
 	role: 'Tester',
 	personalLinks: [
 		{
-			platform: 'Mail',
+			platform: 'E-Mail',
 			prefix: 'mailto:',
 			link: 'max.mustermann@wuespace.de'
 		},
 		{
-			platform: 'Mobil',
+			platform: 'Telefon',
 			prefix: 'tel:',
 			link: '+49 1111 11111111'
 		}
