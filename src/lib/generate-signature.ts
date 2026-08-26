@@ -17,7 +17,7 @@ export function generateSignature({
             <tbody>
             <tr>
                 <td style="vertical-align: top;">
-                  <img width=64px alt="WüSpace" src="https://wiki.wuespace.de/attachments/111">
+                  <img width=64px alt="WüSpace" src="https://wiki.wuespace.de/attachments/205">
                 </td>
                 <td style="padding-left: 1em; vertical-align: top">
                     ${name}<br>
